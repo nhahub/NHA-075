@@ -1,0 +1,10 @@
+artifact_location: file:///e:/Studying/DEPI/Code/Project/artifacts/models/m-c3cadf87f4e544a988dcd746918c7a75/artifacts
+creation_timestamp: 1763450848981
+experiment_id: '289764331553040691'
+last_updated_timestamp: 1763450869271
+model_id: m-c3cadf87f4e544a988dcd746918c7a75
+model_type: null
+name: cvd_xgboost_pipeline_model
+source_run_id: 894df8909f774b539d35e4c8b93ac4a3
+status: 2
+status_message: null

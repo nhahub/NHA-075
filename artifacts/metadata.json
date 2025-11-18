@@ -1,0 +1,1 @@
+{"model_name": "cvd_xgboost_pipeline", "version": "1.0", "features": ["gender", "height", "weight", "ap_hi", "ap_lo", "cholesterol", "glucose", "smoke", "alcohol", "physically_active", "age_years", "bmi", "pulse_pressure", "health_index", "cholesterol_gluc_interaction", "hypertension"], "best_threshold": 0.39}
