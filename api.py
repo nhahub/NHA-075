@@ -4,11 +4,15 @@ import joblib
 import pandas as pd
 import os
 import uvicorn
+import csv
+import threading
 
 app = FastAPI(title="Cardio Prediction API")
 
 MODEL_PATH = "artifacts/cvd_pipeline.joblib"
+LOG_FILE = "prediction_log.csv"
 model = None
+log_lock = threading.Lock()
 
 if os.path.exists(MODEL_PATH):
     model = joblib.load(MODEL_PATH)
@@ -72,6 +76,21 @@ def predict_risk(data: PatientData):
         probability = model.predict_proba(df_final)[0][1]
         prediction = int(model.predict(df_final)[0])
         
+        # Log the prediction
+        with log_lock:
+            # Prepare data for logging
+            log_data = input_dict.copy()
+            log_data['prediction_probability'] = probability
+            log_data['prediction_class'] = prediction
+            
+            # Write to CSV
+            file_exists = os.path.isfile(LOG_FILE)
+            with open(LOG_FILE, 'a', newline='') as f:
+                writer = csv.DictWriter(f, fieldnames=log_data.keys())
+                if not file_exists:
+                    writer.writeheader()
+                writer.writerow(log_data)
+
         return {
             "risk_probability": float(probability),
             "prediction_class": prediction,

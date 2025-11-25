@@ -313,7 +313,7 @@ app.layout = dbc.Container([
         ])
     ]),
 
-    # --- NEW PREDICTION SECTION (COMMUNICATES WITH API.PY) ---
+    # PREDICTION SECTION (COMMUNICATES WITH API.PY)
     dbc.Row([
         dbc.Col([
             dbc.Card([
@@ -358,7 +358,6 @@ app.layout = dbc.Container([
 
     html.Hr(),
 
-    # --- EXISTING DASHBOARD CONTENT BELOW ---
     
     # Top cards with statistics
     dbc.Row([
