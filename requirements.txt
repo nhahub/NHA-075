@@ -6,9 +6,10 @@ dash
 plotly
 dash-bootstrap-components
 requests
-evidently
+# evidently
 joblib
 numpy
 psutil
 pydantic
 uuid6
+streamlit
