@@ -81,38 +81,9 @@ Install dependencies:
 
 Run the application:
 
-`streamlit run streamlit_app.py`
+`python .\app.py`
+`python .\api.py`
 
 
 Access the App:
-Open your browser and go to http://localhost:8501
-
-Deployment (Streamlit Cloud)
-
-This app is optimized for Streamlit Cloud.
-
-Push your code to GitHub.
-
-Go to share.streamlit.io.
-
-Click "New App".
-
-Select your repository and branch.
-
-Set Main file path to streamlit_app.py.
-
-Click Deploy!
-
-🧪 Model Details
-
-The machine learning model was trained on a cardiovascular disease dataset. It uses a pipeline that includes:
-
-Preprocessing: Scaling of continuous variables (Age, Height, Weight, Blood Pressure).
-
-Feature Engineering: Calculation of BMI, Pulse Pressure, and Health Index.
-
-Classification: A trained classifier (e.g., Random Forest/XGBoost) optimized for accuracy and recall.
-
-📝 License
-
-This project is open-source and available for educational and research purposes.
+Open your browser and go to https://deploy-app-app-2ijtnwglh2wl2xv7yxtude.streamlit.app/
