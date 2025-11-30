@@ -40,32 +40,35 @@ Data Processing: Pandas, NumPy
 Machine Learning: Scikit-Learn, Joblib
 
 Project Structure
-
-`├── artifacts/
+`
+├── artifacts/
 │   ├── cvd_best_pipeline.joblib   # Trained ML Model Pipeline
 │   └── scaler.joblib              # Scaler for normalizing input data
 ├── cleaned_data.csv               # Dataset used for dashboard visualizations
 ├── prediction_log.csv             # Auto-generated log of live predictions
 ├── requirements.txt               # List of dependencies
 ├── streamlit_app.py               # Main application file
-└── README.md                      # Project documentation`
+└── README.md                      # Project documentation
+`
 
 
 Installation & Local Setup
 
 Clone the repository:
-
-`git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name`
+`
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+cd your-repo-name
+`
 
 
 Create a virtual environment (Optional but Recommended):
-
-`python -m venv venv
+`
+python -m venv venv
 # Windows
 venv\Scripts\activate
 # Mac/Linux
-source venv/bin/activate`
+source venv/bin/activate
+`
 
 
 Install dependencies:
