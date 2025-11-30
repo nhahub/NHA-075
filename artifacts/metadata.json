@@ -1,0 +1,30 @@
+{
+  "best_model": "Decision Tree",
+  "recall": 0.6213305797315238,
+  "features": [
+    "gender",
+    "height",
+    "weight",
+    "ap_hi",
+    "ap_lo",
+    "cholesterol",
+    "glucose",
+    "smoke",
+    "alcohol",
+    "physically_active",
+    "age_years",
+    "bmi",
+    "pulse_pressure",
+    "health_index",
+    "cholesterol_gluc_interaction",
+    "hypertension"
+  ],
+  "selection_metric": "recall",
+  "training_samples": 54804,
+  "test_samples": 13701,
+  "cvd_rate": 0.4947668053426757,
+  "accuracy": 0.6414860229180351,
+  "precision": 0.6423669360988257,
+  "f1_score": 0.6316736652669466,
+  "roc_auc": 0.6419822203612555
+}

@@ -1,0 +1,10 @@
+artifact_location: file:///e:/Studying/DEPI/Code/Graduation%20Project/NHA-075/mlruns/607860846875387640/models/m-38eb188a5e214e2cb87cba78bdf61fd7/artifacts
+creation_timestamp: 1764519769128
+experiment_id: '607860846875387640'
+last_updated_timestamp: 1764519781676
+model_id: m-38eb188a5e214e2cb87cba78bdf61fd7
+model_type: null
+name: model
+source_run_id: 97813ca34351489ab718af90a33b5520
+status: 2
+status_message: null

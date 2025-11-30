@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pandas
+scikit-learn
+dash
+plotly
+dash-bootstrap-components
+requests
+# evidently
+joblib
+numpy
+psutil
+pydantic
+uuid6
+streamlit
