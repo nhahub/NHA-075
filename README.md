@@ -9,7 +9,7 @@ Features
 
 Interactive Form: Input patient details like age, weight, blood pressure, and cholesterol levels.
 
-Real-time Machine Learning: Uses a pre-trained pipeline (cvd_best_pipeline.joblib) to calculate risk probability instantly.
+Real-time Machine Learning: Uses a pre-trained pipeline (cvd_pipeline.joblib) to calculate risk probability instantly.
 
 Risk Classification: Classifies patients as Low Risk or High Risk with color-coded feedback.
 
@@ -43,13 +43,17 @@ Project Structure
 
 ```
 ├── artifacts/
-│   ├── cvd_best_pipeline.joblib   # Trained ML Model Pipeline
-│   └── scaler.joblib              # Scaler for normalizing input data
-├── cleaned_data.csv               # Dataset used for dashboard visualizations
-├── prediction_log.csv             # Auto-generated log of live predictions
-├── requirements.txt               # List of dependencies
-├── streamlit_app.py               # Main application file
-└── README.md                      # Project documentation
+│   ├── cvd_pipeline.joblib
+│   └── scaler.joblib      
+├── cleaned_data.csv       
+├── prediction_log.csv     
+├── requirements.txt       
+├── streamlit_app.py       
+├── app.py
+├── api.py
+├── final.ipynb
+├── REPORT.pdf
+└── README.md              
 ```
 
 
@@ -58,8 +62,8 @@ Installation & Local Setup
 Clone the repository:
 
 ```
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone https://github.com/nhahub/NHA-075.git
+cd NHA-075
 ```
 
 
