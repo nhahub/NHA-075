@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/Studying/DEPI/Code/Graduation%20Project/NHA-075/mlruns/607860846875387640/0c201a6447744ff39454879badad32da/artifacts
+end_time: 1765213062742
+entry_point_name: ''
+experiment_id: '607860846875387640'
+lifecycle_stage: active
+run_id: 0c201a6447744ff39454879badad32da
+run_name: Gradient Boosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765213049190
+status: 3
+tags: []
+user_id: adham

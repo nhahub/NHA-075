@@ -1,0 +1,15 @@
+creation_timestamp: 1765213062561
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1765213062561
+model_id: m-d64cb0acf2dc4d9c8c82cb681099bd64
+name: CVD_Risk_Model
+run_id: 0c201a6447744ff39454879badad32da
+run_link: null
+source: models:/m-d64cb0acf2dc4d9c8c82cb681099bd64
+status: READY
+status_message: null
+storage_location: file:///e:/Studying/DEPI/Code/Graduation%20Project/NHA-075/mlruns/607860846875387640/models/m-d64cb0acf2dc4d9c8c82cb681099bd64/artifacts
+user_id: null
+version: 2

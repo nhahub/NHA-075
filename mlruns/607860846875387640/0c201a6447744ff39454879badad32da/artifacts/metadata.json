@@ -1,0 +1,23 @@
+{
+  "best_model": "Gradient Boosting",
+  "recall": 0.8367949020533396,
+  "features": [
+    "gender",
+    "height",
+    "weight",
+    "ap_hi",
+    "ap_lo",
+    "cholesterol",
+    "glucose",
+    "smoke",
+    "alcohol",
+    "physically_active",
+    "age_years",
+    "bmi",
+    "pulse_pressure",
+    "health_index",
+    "cholesterol_gluc_interaction",
+    "hypertension"
+  ],
+  "selection_metric": "recall"
+}
